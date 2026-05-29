@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/University_of_portsmouth_logo.png/320px-University_of_portsmouth_logo.png" alt="University of Portsmouth" width="260"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/University_of_Portsmouth_Logo.png" alt="University of Portsmouth" width="260"/>
 </p>
 
 # 🎓 University of Portsmouth — Erasmus Exchange
@@ -23,7 +23,7 @@ This repository contains the coursework submissions I completed during a one-sem
 
 ## 📋 Submissions
 
-### 1 · 🩺 Heart Attack Prediction
+### 1 · 🧬 Stroke Prediction
 **Module:** Programming for AI
 
 A machine learning project predicting cardiovascular risk using a stroke dataset, covering data preprocessing, feature engineering, clustering, and neural network hyperparameter tuning.
@@ -36,7 +36,7 @@ A machine learning project predicting cardiovascular risk using a stroke dataset
 
 > Click the link below
 
-[Heart Attack Prediction.pdf](Heart%20Attack%20Prediction.pdf)
+[Stroke Prediction.pdf](Stroke%20Prediction.pdf)
 
 ---
 
@@ -56,10 +56,10 @@ A single consolidated notebook (required format for this submission) implementin
 
 ---
 
-### 3 · 🧬 Stroke Prediction
+### 3 · 🩺 Heart Attack Prediction
 **Module:** AI Foundations in Practice — Submission 1
 
-A multi-notebook pipeline exploring classical and deep learning models for stroke prediction, including dataset preparation, model comparison, neural network architecture search, and t-SNE visualisation.
+A multi-notebook pipeline exploring classical and deep learning models for heart attack prediction, including dataset preparation, model comparison, neural network architecture search, and t-SNE visualisation.
 
 **💻 Code** — [`AIFoundations/coursework_code_1/`](AIFoundations/coursework_code_1/)
 
@@ -76,7 +76,7 @@ Generated artefacts (trained models, plots, tuner results): [`AIFoundations/outp
 
 **📄 Report**
 
-[Stroke Prediction.pdf](Stroke%20Prediction.pdf)
+[Heart Attack Prediction.pdf](Heart%20Attack%20Prediction.pdf)
 
 ---
 
