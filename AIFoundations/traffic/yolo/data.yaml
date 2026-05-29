@@ -1,0 +1,9 @@
+path: /content/drive/MyDrive/Coding/AIFoundations/traffic/yolo 
+
+train: train  
+val: val    
+test: test   
+
+names:
+  0: red
+  1: green

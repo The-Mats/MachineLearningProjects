@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-11">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="conv2d_3" label="conv2d_3">
+        <attvalues>
+          <attvalue for="0" value="Conv2D" />
+        </attvalues>
+      </node>
+      <node id="max_pooling2d_3" label="max_pooling2d_3">
+        <attvalues>
+          <attvalue for="0" value="MaxPooling2D" />
+        </attvalues>
+      </node>
+      <node id="conv2d_4" label="conv2d_4">
+        <attvalues>
+          <attvalue for="0" value="Conv2D" />
+        </attvalues>
+      </node>
+      <node id="max_pooling2d_4" label="max_pooling2d_4">
+        <attvalues>
+          <attvalue for="0" value="MaxPooling2D" />
+        </attvalues>
+      </node>
+      <node id="conv2d_5" label="conv2d_5">
+        <attvalues>
+          <attvalue for="0" value="Conv2D" />
+        </attvalues>
+      </node>
+      <node id="max_pooling2d_5" label="max_pooling2d_5">
+        <attvalues>
+          <attvalue for="0" value="MaxPooling2D" />
+        </attvalues>
+      </node>
+      <node id="flatten_1" label="flatten_1">
+        <attvalues>
+          <attvalue for="0" value="Flatten" />
+        </attvalues>
+      </node>
+      <node id="dense_2" label="dense_2">
+        <attvalues>
+          <attvalue for="0" value="Dense" />
+        </attvalues>
+      </node>
+      <node id="dense_3" label="dense_3">
+        <attvalues>
+          <attvalue for="0" value="Dense" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="conv2d_3" target="max_pooling2d_3" id="0" />
+      <edge source="max_pooling2d_3" target="conv2d_4" id="1" />
+      <edge source="conv2d_4" target="max_pooling2d_4" id="2" />
+      <edge source="max_pooling2d_4" target="conv2d_5" id="3" />
+      <edge source="conv2d_5" target="max_pooling2d_5" id="4" />
+      <edge source="max_pooling2d_5" target="flatten_1" id="5" />
+      <edge source="flatten_1" target="dense_2" id="6" />
+      <edge source="dense_2" target="dense_3" id="7" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,40 @@
+\begin{table}[H]
+    \centering
+    \small
+    % --- Define Boolean Colors ---
+    \definecolor{boolTrue}{HTML}{C8E6C9} % Green
+    \definecolor{boolFalse}{HTML}{FFCDD2} % Red
+
+    % --- Define Categorical Colors ---
+    \definecolor{colFemale}{HTML}{A1C9F4}
+    \definecolor{colMale}{HTML}{FFB482}
+    \definecolor{colPrivate}{HTML}{8DE5A1}
+    \definecolor{colRural}{HTML}{FF9F9B}
+    \definecolor{colSelfemployed}{HTML}{D0BBFF}
+    \definecolor{colUrban}{HTML}{DEBB9B}
+    \definecolor{colYes}{HTML}{FAB0E4}
+    \definecolor{colformerlysmoked}{HTML}{CFCFCF}
+    \definecolor{colneversmoked}{HTML}{FFFEA3}
+    \definecolor{colsmokes}{HTML}{B9F2F0}
+
+    \caption{First 5 rows with boolean and categorical highlighting}
+    \label{tab:first_5_rows_colored}
+    \begin{tabular}{@{} l r r r r r @{}}
+        \toprule
+        \textbf{Feature} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+        \midrule
+        id & 9046 & 51676 & 31112 & 60182 & 1665 \\
+        gender & \cellcolor{colMale}{Male} & \cellcolor{colFemale}{Female} & \cellcolor{colMale}{Male} & \cellcolor{colFemale}{Female} & \cellcolor{colFemale}{Female} \\
+        age & 67.00 & 61.00 & 80.00 & 49.00 & 79.00 \\
+        hypertension & \cellcolor{boolFalse}0 & \cellcolor{boolFalse}0 & \cellcolor{boolFalse}0 & \cellcolor{boolFalse}0 & \cellcolor{boolTrue}1 \\
+        heart disease & \cellcolor{boolTrue}1 & \cellcolor{boolFalse}0 & \cellcolor{boolTrue}1 & \cellcolor{boolFalse}0 & \cellcolor{boolFalse}0 \\
+        ever married & \cellcolor{colYes}{Yes} & \cellcolor{colYes}{Yes} & \cellcolor{colYes}{Yes} & \cellcolor{colYes}{Yes} & \cellcolor{colYes}{Yes} \\
+        work type & \cellcolor{colPrivate}{Private} & \cellcolor{colSelfemployed}{Self-employed} & \cellcolor{colPrivate}{Private} & \cellcolor{colPrivate}{Private} & \cellcolor{colSelfemployed}{Self-employed} \\
+        Residence type & \cellcolor{colUrban}{Urban} & \cellcolor{colRural}{Rural} & \cellcolor{colRural}{Rural} & \cellcolor{colUrban}{Urban} & \cellcolor{colRural}{Rural} \\
+        avg glucose level & 228.69 & 202.21 & 105.92 & 171.23 & 174.12 \\
+        bmi & 36.60 & nan & 32.50 & 34.40 & 24.00 \\
+        smoking status & \cellcolor{colformerlysmoked}{formerly smoked} & \cellcolor{colneversmoked}{never smoked} & \cellcolor{colneversmoked}{never smoked} & \cellcolor{colsmokes}{smokes} & \cellcolor{colneversmoked}{never smoked} \\
+        stroke & \cellcolor{boolTrue}1 & \cellcolor{boolTrue}1 & \cellcolor{boolTrue}1 & \cellcolor{boolTrue}1 & \cellcolor{boolTrue}1 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
